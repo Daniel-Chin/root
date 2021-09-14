@@ -1,3 +1,3 @@
 @echo off
-call %CONDAPATH%\scripts\activate base
+call %CONDAPATH%\Scripts\activate.bat %CONDAPATH%
 python %*
